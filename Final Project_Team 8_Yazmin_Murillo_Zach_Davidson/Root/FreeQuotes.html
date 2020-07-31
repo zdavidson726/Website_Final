@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+	<!--
+	
+		Cruz Landscaping
+		Author: Yazmin Murillo & Zach Davidson
+		Date: July 20, 2020
+		
+		Filename:		FreeQuotes.html
+		Supporting files: main.css logo.png
+		
+	-->
+	
+		<meta charset="UTF-8" />
+		<title>FreeQuotes</title>
+		<script src="modernizr.custom.40753.js"></script>
+		<link href="Assets/styles/main.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		
+	</head>
+	
+<div class="container">		
+
+
+	
+		<header>
+			<img src="Assets/Images/logo.png" alt="Cruz Landscaping" />
+		</header>
+		
+		 <nav class="Horizontal">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="AboutUs.html">About Us</a></li>
+				<li><a href="staff.html">Meet Our Mowers</a></li>
+				<li><a href="Services.html">Services</a></li>
+				<li><a href="FreeQuotes.html">Free Quotes</a></li>
+			</ul>
+		</nav>
+		
+	<section id="main">		
+		 <h3>Schedule a visit to get a free quote!</h3>
+	
+	
+			<form action="mailto:LandscapeWithCruz@gmail">
+				<fieldset class="contactinfo">
+					<legend>Contact Information</legend>
+					<label for="fnameinput">
+						First Name
+						<input type="text" id="fnameinput" name="fname" placeholder="First name">
+					</label>
+					<label for="lnameinput">
+						Last Name
+					<input type="text" id="lnameinput" name="lname" placeholder="Last name">
+					</label>
+					<label for="emailinput">
+						Email
+						<input type="email" id="emailinput" name="email" placeholder="addess@example.com">
+					</label>
+					<label for="phoneinput">
+						Phone
+						<input type="tel" id="phoneinput" name="phone" placeholder="(555) 555-5555">
+					</label>
+				</fieldset>
+				<fieldset class="serviceneeded">
+					<legend>Service Needed</legend>
+					<select id="request" name="request">
+						<option value="D1">Lawn Maintenance</option>
+						<option value="D2">Tree Triming</option>
+						<option value="D3">Retaining Wall</option>
+						<option value="D4">Flowerbed Maintenance</option>
+						<option value="D5">Snow Removal</option>
+					</select>
+				</fieldset>
+				<fieldset class="propertysize">
+					<legend>Size of property</legend>
+					<label for="small">
+						<input type="checkbox" id="small" name="memberships" value="small">
+						1/2 acre or less
+					</label>
+					<label for="large">
+						<input type="checkbox" id="large" name="memberships" value="large">
+						Over 1/2 acre
+					</label>
+				</fieldset>
+				<fieldset class="additionalinfo">
+					<legend>Additional Information</legend>
+					<label for="feedback">
+						Questions and Special Requests
+					</label>
+					
+					<textarea id="feedback" name="feedback" rows="8" cols="10"></textarea>
+					
+				</fieldset>
+				<fieldset class="submitbutton">
+					<input type="submit" id="submit" value="Submit">
+				</fieldset>
+				<fieldset class="resetbutton">
+					<input type="reset" id="reset" value="Reset">
+				</fieldset>
+			</form>
+      
+		
+	</section>
+			<footer>
+				<address>
+					Cruz Landscaping &#183;
+					12052 Glenpark Dr &#183;
+					Maryland Heights, MO &#183;
+					 (314) 910-8640 &#183;
+					LandscapeWithCruz@gmail.com
+				</address>
+			</footer>
+	
+ </div>
+ 
+</html>
